@@ -24,7 +24,7 @@ function init () {
     /*
     Detect browser SVG compatibility and load the appropriate background
     */
-    
+    return; // target images seem to be missing... skipping this (july 2015)
     if ((jQuery.browser.safari && jQuery.browser.version.split('.')[0] >= 522) ||
         (jQuery.browser.mozilla && jQuery.browser.version.substr(0,3) >= 1.8) ||
         (jQuery.browser.opera && jQuery.browser.version >= 8.0)) 
